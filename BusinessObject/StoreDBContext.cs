@@ -10,7 +10,7 @@ namespace BusinessObject
 {
     public class StoreDBContext : DbContext
     {
-        public StoreDBContext();
+        public StoreDBContext() { }
         public DbSet<MemberObject> Members { get; set; }
         public DbSet<ProductObject> Products { get; set; }
         public DbSet<OrderObject> Orders { get; set; }
@@ -26,7 +26,7 @@ namespace BusinessObject
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MemberObject>().HasData(
-                new MemberObject { Email = "admin@fstore.com", CompanyName = "FStore", City = "Hanoi", Country = "Vietnam", Password = "admin@@" }
+                new MemberObject { MemberId = 1, Email = "admin@fstore.com", CompanyName = "FStore", City = "Hanoi", Country = "Vietnam", Password = "admin@@" }
             );
         }
     }

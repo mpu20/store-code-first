@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataAccess
-build_property.ProjectDir = D:\PRN211\Ass02Solution\DataAccess\
+build_property.ProjectDir = D:\PRN211\store-code-first\DataAccess\

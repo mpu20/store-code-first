@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN211\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\PRN211\\store-code-first\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\PRN211\\Ass02Solution\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\PRN211\\store-code-first\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\PRN211\\store-code-first\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\PRN211\\Ass02Solution\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\Ass02Solution\\BusinessObject\\obj\\",
+        "projectPath": "D:\\PRN211\\store-code-first\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\store-code-first\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

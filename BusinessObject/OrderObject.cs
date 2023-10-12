@@ -19,6 +19,7 @@ namespace BusinessObject
         public DateTime OrderDate { get; set; }
         public DateTime RequiredDate { get; set; }
         public DateTime ShippedDate { get; set; }
+        [Column(TypeName = "money")]
         public Decimal Freight { get; set; }
     }
 }

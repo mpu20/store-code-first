@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,19 +11,17 @@ using System.Threading.Tasks;
 namespace BusinessObject
 {
     [Table("OrderDetail")]
+    [PrimaryKey(nameof(OrderId), nameof(ProductId))]
     public class OrderDetailObject
     {
-        [Key]
-        [Column(Order = 1)]
         public int OrderId { get; set; }
         [ForeignKey("OrderId")]
         public virtual OrderObject Order { get; set; }
-        [Key]
-        [Column(Order = 2)]
         public int ProductId { get; set; }
         [ForeignKey("ProductId")]
         public virtual ProductObject Product { get; set; }
         [Required]
+        [Column(TypeName = "money")]
         public Decimal UnitPrice { get; set; }
         [Required]
         public int Quantity { get; set; }
