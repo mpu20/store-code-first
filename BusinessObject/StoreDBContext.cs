@@ -10,12 +10,19 @@ namespace BusinessObject
 {
     public class StoreDBContext : DbContext
     {
-        public StoreDBContext() : base(@"Server=(local);Database=FStore;Trusted_Connection=True;") { }
+        public StoreDBContext();
         public DbSet<MemberObject> Members { get; set; }
         public DbSet<ProductObject> Products { get; set; }
         public DbSet<OrderObject> Orders { get; set; }
         public DbSet<OrderDetailObject> OrderDetails { get; set; }
-        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            IConfigurationRoot configuration = builder.Build();
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("FStore"));
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MemberObject>().HasData(
