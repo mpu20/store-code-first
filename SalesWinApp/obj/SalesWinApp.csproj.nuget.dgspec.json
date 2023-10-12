@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN211\\store-code-first\\SalesWinApp\\SalesWinApp.csproj": {}
+    "D:\\PRN211\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj": {}
   },
   "projects": {
-    "D:\\PRN211\\store-code-first\\SalesWinApp\\SalesWinApp.csproj": {
+    "D:\\PRN211\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN211\\store-code-first\\SalesWinApp\\SalesWinApp.csproj",
+        "projectUniqueName": "D:\\PRN211\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
         "projectName": "SalesWinApp",
-        "projectPath": "D:\\PRN211\\store-code-first\\SalesWinApp\\SalesWinApp.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN211\\store-code-first\\SalesWinApp\\obj\\",
+        "projectPath": "D:\\PRN211\\Ass02Solution\\SalesWinApp\\SalesWinApp.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN211\\Ass02Solution\\SalesWinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
